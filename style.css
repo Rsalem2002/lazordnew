@@ -1,0 +1,2244 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/*img*/
+img {
+    opacity: 0;
+    transform: translateY(40px) scale(0.8);
+    transition: all 0.1s ease;
+}
+
+img.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/*nav*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    direction: rtl;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    color: #003f33;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #003f33;
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.phone {
+    font-size: 18px;
+    color: #003f33;
+    font-weight: 600;
+}
+
+.start-btn {
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-btn {
+    background: transparent;
+    color: #003f33;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #259b35;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: white;
+}
+
+/*footer*/
+.footer {
+    background: #004638;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 80px;
+    border-radius: 0 0 14px 14px;
+    direction: rtl;
+}
+
+.footer-cta {
+    text-align: center;
+    width: 35%;
+}
+
+.footer-cta h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.footer-cta p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.footer-btn {
+    text-align: center;
+    display: inline-block;
+    background: #0f6b5a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 45px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.footer-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    text-align: center;
+    color: #c9d8d4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*مختبر طب الاسنان الرقمي مع التواصل الحقيقي*/
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+    direction: rtl;
+    min-height: 100vh;
+}
+
+.hero-card {
+    background: #004638;
+    color: white;
+    width: 450px;
+    min-height: 600px;
+    padding: 55px 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-card h1 {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+
+}
+
+.hero-card p {
+    font-size: 15px;
+    line-height: 2.2;
+    margin-bottom: 200px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 100px;
+}
+
+.hero-btn {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.hero-btn.primary {
+    background: white;
+    color: black;
+}
+
+.hero-btn.secondary {
+    /* background: transparent; */
+    color: white;
+    border: 2px solid white;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/*تعزيز مستقبل طب الأسنان الرقمي*/
+
+.features-section {
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.features-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.features-desc {
+    margin: 0 auto 60px;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.feature-card {
+    width: 200px;
+}
+
+.feature-card img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/*حلول طب الأسنان الرقمية لتناسب احتياجاتك*/
+.solutions-section {
+    background: #004638;
+    color: white;
+    text-align: center;
+    padding: 80px 60px;
+    border-radius: 14px;
+}
+
+.solutions-section h2 {
+    font-size: 34px;
+    margin-bottom: 45px;
+}
+
+.solutions-cards {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.solution-card {
+    background: white;
+    color: #111;
+    width: 420px;
+    min-height: 360px;
+    padding: 35px 35px;
+    border-radius: 14px;
+    text-align: right;
+}
+
+.solution-card h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.solution-card p {
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 28px;
+    font-weight: 600;
+}
+
+.solution-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px;
+}
+
+.solution-card li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.solution-card li::before {
+    content: "✓";
+    color: #168326;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.solution-btn {
+    display: inline-block;
+    background: #168326;
+    color: white;
+    text-decoration: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/*  أطلق العنان للابتكار الرائد في السوق مع مختبر طب الأسنان الخاص بنا*/
+.intro-section {
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.intro-section h2 {
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+.intro-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+    color: black;
+}
+
+.products {
+    margin-top: 60px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card img {
+    width: 220px;
+    height: 170px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205);
+    transition: 0.3s;
+}
+
+
+.product-card h3 {
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 14px;
+    color: #111;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.products-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-btn {
+    display: inline-block;
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 14px 55px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/* حويل ممارساتك باستخدام سير عمل رقمي مثبتقم بت*/
+.workflow-section {
+    padding: 80px 60px;
+    text-align: center;
+    direction: rtl;
+}
+
+.workflow-section h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.workflow-subtitle {
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.workflow-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.workflow-image img {
+    width: 450px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.workflow-list {
+    width: 400px;
+    text-align: right;
+    transform: translateX(40px);
+}
+
+.workflow-item {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.workflow-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 5px;
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.workflow-answer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: white;
+    color: #333;
+    padding: 15px;
+    line-height: 1.8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    z-index: 20;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.workflow-item.active .workflow-answer {
+    display: block;
+}
+
+.workflow-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+/*تحقيق نتائج أفضل لممارساتك و مرضاك*/
+.results-section {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.results-section h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.results-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.result-card {
+    width: 320px;
+    text-align: center;
+}
+
+.result-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.result-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.result-card h3 {
+    font-size: 17px;
+    font-weight: 800;
+    margin: 15px 0 10px;
+}
+
+.result-card p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+}
+
+/* الاف من الممارسات تثق في لازورد و اعمالها المخبرية */
+.stats-section {
+    background: #4e8f6e;
+    padding: 150px 60px;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    min-height: 450px;
+}
+
+.stats-section h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+.stats-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: #1c5f50;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.stat-card h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 20px;
+}
+
+/*تواصل معنا*/
+.contact-section {
+    background: #eeece8;
+    margin: 60px auto;
+    padding: 70px 80px;
+    border-radius: 16px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    direction: rtl;
+}
+
+.contact-text {
+    flex: 1;
+}
+
+.contact-text h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.contact-text p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 60px;
+}
+
+.contact-text h3 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.contact-text .small-text {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 90%;
+    height: 42px;
+    border: none;
+    padding: 0 14px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.contact-btn {
+    grid-column: 1 / -1;
+    background: #168326;
+    color: white;
+    border: none;
+    height: 55px;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/*تعرف على المزيد حول مستقبل طب الأسنان و كيف يشكله لازورد*/
+.learn-more-section {
+    padding: 60px 20px;
+    direction: rtl;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.learn-more-section h2 {
+    color: #168326;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 2px solid #ccc;
+    text-align: right;
+}
+
+.learn-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.learn-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
+}
+
+.small-article img {
+width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.small-article h3 {
+font-size: 16px;
+     margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.learn-main {
+    flex: 2;
+    min-width: 0;
+    margin-top: 20px;
+ }
+
+.learn-main img {
+width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.learn-main h3 {
+font-size: 20px;
+     margin-top: 15px;
+    font-weight: 800;
+    text-align: center
+}
+
+/*الأسئلة الشائعة حول لازورد*/
+.faq-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 90px 60px;
+    direction: rtl;
+}
+
+.faq-title {
+    width: 360px;
+    text-align: center;
+}
+
+.faq-title h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #111;
+    margin: 0;
+}
+
+.faq-list {
+    width: 600px;
+}
+
+.faq-item {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 6px;
+    color: #168326;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.arrow {
+    color: #777;
+    transition: 0.3s;
+}
+
+.faq-answer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: white;
+    color: #333;
+    padding: 15px;
+    line-height: 1.8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    z-index: 20;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    font-size: 15px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+/*login and sign up*/
+.login-page {
+    min-height: 100vh;
+    background: #004638;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 16px;
+}
+
+.login-box {
+    background: white;
+    width: 420px;
+    padding: 45px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.login-box label {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.login-box input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 0 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.login-box button {
+    height: 48px;
+    background: #168326;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #168326;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #168326;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/*why */
+.why-hero {
+    padding: 120px 60px 80px;
+    text-align: center;
+}
+
+.why-hero h1 {
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #003f33;
+}
+
+.why-hero p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #333;
+}
+
+.why-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 80px 70px;
+}
+
+.why-about-text {
+    width: 480px;
+}
+
+.why-about-text h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.why-about-text p {
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+}
+
+.why-about-image img {
+    width: 430px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.why-benefits {
+    background: #004638;
+    padding: 90px 70px;
+    text-align: center;
+}
+
+.why-benefits h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.why-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    background: rgb(237, 240, 240);
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.why-card h3 {
+    font-size: 20px;
+    color: #168326;
+    margin-bottom: 15px;
+}
+
+.why-card p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.why-process {
+    padding: 90px 70px;
+    text-align: center;
+}
+
+.why-process h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+
+.process-list {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.process-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 22px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+
+.process-item span {
+    color: #168326;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.process-item p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.text-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.7s ease;
+}
+
+.text-reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (max-width: 768px) {
+    .why-about {
+        flex-direction: column-reverse;
+         text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .why-about-text {
+        text-align: center;
+    }
+
+    .why-about-text h2 {
+        font-size: 24px;
+    }
+
+    .why-about-text p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .why-benefits {
+        padding: 40px 10px;
+     }
+
+    .why-benefits h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .why-cards {
+        display: flex;
+        flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+        gap: 10px;
+     }
+
+    .why-card {
+         flex: 0 0 calc(50% - 15px);
+        padding: 20px 10px;
+         min-height: 180px;
+     }
+
+    .why-card h3 {
+        font-size: 16px;
+         margin-bottom: 10px;
+    }
+
+    .why-card p {
+        font-size: 13px;
+         line-height: 1.4;
+    }
+}
+/*services*/
+.services-hero {
+    padding: 110px 60px 70px;
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: #003f33;
+    margin-bottom: 18px;
+}
+
+.services-hero p {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 1.9;
+    color: black;
+}
+
+.services-category {
+    padding: 70px 70px;
+    text-align: center;
+}
+
+.services-category h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 45px;
+    color: #111;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.service-card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.16);
+}
+
+.service-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #168326;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/*solutions*/
+.solutions-section {
+    padding: 100px 70px;
+    text-align: center;
+    direction: rtl;
+}
+
+.solutions-section h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.solutions-intro {
+    max-width: 720px;
+    margin: 0 auto 60px;
+    font-size: 25px;
+    line-height: 1.9;
+    color: white;
+}
+
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.solution-card {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.09); */
+    transition: 0.4s ease;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.solution-card:hover {
+    transform: translateY(-12px) scale(1.5);
+    /* box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15); */
+}
+
+.solution-card h3 {
+    font-size: 21px;
+    font-weight: 800;
+    color: #168326;
+    margin-bottom: 18px;
+}
+
+.problem {
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.solution {
+    color: green;
+    line-height: 1.8;
+    font-weight: 700;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .solutions-section {
+        padding: 40px 20px;
+        background-color: #0b4a32;
+        text-align: center;
+        /* لتوسيط العنوان والمقدمة */
+    }
+
+    .solutions-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        /* لتوسيط الكروت في منتصف الشاشة */
+        width: 100%;
+    }
+
+    .solution-card {
+        background-color: #fff;
+        width: 100%;
+        max-width: 350px;
+        /* تحديد عرض أقصى لكي لا يبدو الكرت ضخماً جداً */
+        padding: 30px 20px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        text-align: center;
+        /* هذا السطر هو الذي سيجعل النصوص بداخل الكرت تظهر في المنتصف */
+        direction: rtl;
+    }
+
+    .solution-card h3 {
+        color: #1a8332;
+        font-size: 19px;
+        margin-bottom: 12px;
+        font-weight: 800;
+    }
+
+    .solution-card .problem {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
+
+    .solution-card .solution {
+        font-size: 14px;
+        color: #1a8332;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+}
+
+/*pricing*/
+.pricing-section {
+    max-width: 750px;
+    margin: auto;
+    padding: 90px 60px;
+    direction: rtl;
+}
+
+.pricing-section h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.pricing-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    cursor: pointer;
+    color: #168326;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pricing-arrow {
+    color: #777;
+    transition: 0.3s;
+}
+
+.pricing-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.pricing-content p {
+    margin: 0 0 20px;
+    color: black;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.pricing-item.active .pricing-content {
+    max-height: 120px;
+}
+
+.pricing-item.active .pricing-arrow {
+    transform: rotate(180deg);
+}
+
+/*learning*/
+.learning-hero {
+    /* padding: 120px 60px 80px; */
+    text-align: center;
+    max-height: 600px;
+}
+
+.learning-hero h1 {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #003f33;
+}
+
+.learning-hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.9;
+    color: black;
+}
+
+/*learning*/
+  * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     direction: rtl;
+     line-height: 1.6;
+     overflow-x: hidden;
+     background-color: #fcfcfc;
+ }
+
+  .learning-hero {
+     padding: 100px 20px;
+     text-align: center;
+     background-color:white;
+     color: white;
+ }
+
+ .learning-hero h1 {
+     font-size: 2.5rem;
+     margin-bottom: 20px;
+ }
+
+  .articles-section {
+     padding: 60px 10%;
+     width: 100%;
+     display: block;
+     clear: both;
+ }
+
+ .articles-section h2 {
+     text-align: center;
+     color: #0b4a32;
+     margin-bottom: 40px;
+     font-size: 2rem;
+ }
+
+ .articles-list {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+ }
+
+ .article-card {
+     display: flex;
+     background: #fff;
+     border-radius: 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+     overflow: hidden;
+     align-items: center;
+     transition: transform 0.3s ease;
+     height: auto;
+ }
+
+ .article-card:hover {
+     transform: translateY(-5px);
+ }
+
+ .article-card img {
+     width: 350px;
+     height: 220px;
+     object-fit: cover;
+     flex-shrink: 0;
+ }
+
+ .article-content {
+     padding: 30px;
+     flex: 1;
+ }
+
+ .article-content h3 {
+     color: #1a8332;
+     margin-bottom: 15px;
+ }
+
+  .learning-faq-section {
+     padding: 60px 15%;
+     background-color: #fff;
+     width: 100%;
+     display: block;
+     clear: both;
+ }
+
+ .learning-faq-section h2 {
+     text-align: center;
+     color: #0b4a32;
+     margin-bottom: 40px;
+ }
+
+ .learning-faq-list {
+     max-width: 800px;
+     margin: 0 auto;
+ }
+
+ .learning-faq-item {
+     border-bottom: 1px solid #eee;
+     padding: 20px 0;
+ }
+
+ .learning-faq-question {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+     font-weight: bold;
+     color: #1a8332;
+ }
+
+ .learning-faq-answer {
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.3s ease-out, padding 0.3s ease;
+     color: #555;
+ }
+
+ .learning-faq-item.active .learning-faq-answer {
+     max-height: 500px;
+     padding-top: 15px;
+ }
+
+ .learning-arrow {
+     transition: transform 0.3s;
+ }
+
+ .learning-faq-item.active .learning-arrow {
+     transform: rotate(180deg);
+ }
+
+  .learning-cta {
+     padding: 80px 20px;
+     text-align: center;
+     background-color: #004638;
+     color: white;
+     clear: both;
+ }
+
+ .cta-btn {
+     display: inline-block;
+     margin-top: 25px;
+     padding: 15px 40px;
+     background-color: #1a8332;
+     color: white;
+     text-decoration: none;
+     border-radius: 30px;
+     font-weight: bold;
+     transition: background 0.3s;
+ }
+
+ /* --- Media Query (Mobile) --- */
+ @media (max-width: 768px) {
+
+     .articles-section,
+     .learning-faq-section {
+         padding: 40px 20px;
+     }
+
+     .articles-list {
+         gap: 40px;
+     }
+
+     .article-card {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .article-card img {
+         width: 100%;
+         height: auto;
+         max-height: 250px;
+     }
+
+     .article-content {
+         padding: 20px;
+         width: 100%;
+     }
+
+     .learning-hero h1 {
+         font-size: 1.8rem;
+     }
+
+     .learning-faq-question span {
+         font-size: 0.95rem;
+     }
+ }
+ 
+/*toggle*/
+.menu-toggle {
+    display: none;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: #003f33;
+        position: absolute;
+        left: 20px;
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+        z-index: 1000;
+        gap: 15px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links a {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .mobile-only {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+    }
+
+    .mobile-only .login-btn,
+    .mobile-only .start-btn {
+        width: 80%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    .nav-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*footer*/
+@media (max-width: 992px) {
+    .footer {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 10px !important;
+        padding: 40px 15px !important;
+        width: 100% !important;
+        direction: rtl;
+    }
+
+    .footer-cta {
+        grid-column: span 2 !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+
+    .footer-cta p {
+        width: 100% !important;
+        max-width: 90% !important;
+        margin: 0 auto 25px auto !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        display: block !important;
+        line-height: 1.6 !important;
+        text-align: center !important;
+    }
+
+    .footer-column {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .footer-column h3 {
+        font-size: 18px !important;
+        margin-bottom: 10px;
+    }
+
+    .footer-column a {
+        font-size: 14px !important;
+        padding: 5px 0;
+    }
+
+    .footer-btn {
+        width: fit-content !important;
+        padding: 10px 40px !important;
+    }
+}
+
+/*مختبر طب الاسنان الرقمي مع التواصل الحقيقي*/
+@media (max-width: 992px) {
+    .hero-section {
+        flex-direction: column !important;
+        gap: 30px !important;
+        padding: 40px 20px !important;
+        min-height: auto !important;
+        justify-content: flex-start !important;
+    }
+
+    .hero-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-height: auto !important;
+        padding: 30px 20px !important;
+        order: 1;
+    }
+
+    .hero-card h1 {
+        font-size: 26px !important;
+        line-height: 1.3 !important;
+    }
+
+    .hero-card p {
+        font-size: 14px !important;
+        line-height: 1.8 !important;
+        max-width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+
+    .hero-buttons {
+        flex-direction: column !important;
+        gap: 12px !important;
+        margin-top: 20px !important;
+        width: 100%;
+    }
+
+    .hero-btn {
+        width: 100% !important;
+        text-align: center;
+        padding: 14px 0 !important;
+    }
+
+    .hero-image {
+        order: 2;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 450px;
+        border-radius: 10px;
+    }
+}
+
+/*تعزيز مستقبل طب الأسنان الرقمي*/
+@media (max-width: 992px) {
+    .features-section {
+        padding: 60px 20px !important;
+        text-align: center;
+    }
+
+    .features-section h2 {
+        font-size: 24px !important;
+        margin-bottom: 20px;
+    }
+
+    .features-desc {
+        font-size: 15px !important;
+        line-height: 1.8 !important;
+        max-width: 100% !important;
+        margin-bottom: 40px !important;
+        padding: 0 10px;
+    }
+
+    .features-cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 15px !important;
+        width: 100% !important;
+    }
+
+    .feature-card {
+        width: 100% !important;
+        padding: 15px 10px !important;
+    }
+
+    .feature-card img {
+        width: 60px !important;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .feature-card h3 {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+    }
+
+    .feature-card p {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .features-cards {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/*حلول طب الأسنان الرقمية لتناسب احتياجاتك*/
+/* --- ميديا كويري قسم حلول طب الأسنان --- */
+@media (max-width: 992px) {
+    .solutions-section {
+        padding: 60px 20px !important;
+        background: #004638;
+        /* الحفاظ على الخلفية الموحدة */
+    }
+
+    .solutions-section h2 {
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+        text-align: center;
+        color: white;
+        line-height: 1.4;
+    }
+
+    .solutions-cards {
+        display: flex !important;
+        flex-direction: column !important;
+        /* ترتيب عمودي للبطاقات */
+        gap: 30px !important;
+        align-items: center !important;
+    }
+
+    .solution-card {
+        width: 100% !important;
+        /* تأخذ كامل العرض */
+        max-width: 450px !important;
+        /* تحديد أقصى عرض لجمالية التصميم في التابلت */
+        padding: 30px 20px !important;
+        background: white;
+        border-radius: 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .solution-card h3 {
+        font-size: 20px !important;
+        margin-bottom: 15px;
+        color: #004638;
+    }
+
+    .solution-card p {
+        font-size: 15px !important;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .solution-card ul {
+        text-align: right;
+        padding: 0 15px;
+        margin-bottom: 25px;
+        list-style: none;
+    }
+
+    .solution-card li {
+        font-size: 14px;
+        margin-bottom: 10px;
+        position: relative;
+        padding-right: 25px;
+    }
+
+    .solution-card li::before {
+        content: "✓";
+        position: absolute;
+        right: 0;
+        color: green;
+        font-weight: bold;
+    }
+
+    .solution-btn {
+        width: 100% !important;
+        padding: 14px 0 !important;
+        font-size: 16px !important;
+        text-decoration: none;
+        display: inline-block;
+        background: green;
+        color: white;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+}
+
+/*  أطلق العنان للابتكار الرائد في السوق مع مختبر طب الأسنان الخاص بنا*/
+@media (max-width: 992px) {
+    .intro-section {
+        padding: 40px 15px !important;
+        text-align: center;
+    }
+
+    .products {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 20px 15px !important;
+    }
+
+    .row-1,
+    .row-2 {
+        display: contents !important;
+    }
+
+    .product-card {
+        flex: 0 0 45% !important;
+        max-width: 45% !important;
+        margin-bottom: 5px;
+    }
+
+    .product-card:nth-child(7) {
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+        margin: 10px auto !important;
+    }
+
+    .product-card img {
+        width: 80% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        display: block;
+    }
+
+    .product-card h3 {
+        font-size: 13px !important;
+        margin-top: 8px !important;
+    }
+
+    .products-btn {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .main-btn {
+        display: block !important;
+        width: 90% !important;
+        margin: 0 auto;
+        padding: 12px 0 !important;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .workflow-section {
+        padding: 40px 15px !important;
+    }
+
+    .workflow-content {
+        flex-direction: column-reverse !important;
+        gap: 30px !important;
+    }
+
+    .workflow-image img {
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+    }
+
+    .workflow-list {
+        width: 100% !important;
+        transform: translateX(0) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .workflow-section h2 {
+        font-size: 24px !important;
+    }
+
+    .workflow-question {
+        font-size: 16px !important;
+        padding: 15px 5px !important;
+        gap: 10px !important;
+    }
+
+    .workflow-answer {
+        position: static !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 10px 5px !important;
+        background: #f9f9f9 !important;
+    }
+}
+
+/*تواصل معنا*/
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 10%;
+    background-color: #f4f4f4;
+    direction: rtl;
+    gap: 50px;
+}
+
+.contact-text {
+    flex: 1;
+    text-align: right;
+}
+
+.contact-text h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-text .small-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.contact-form {
+    flex: 1.2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.contact-btn {
+    grid-column: span 2;
+    background-color: #1a8332;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #146627;
+}
+
+@media (max-width: 992px) {
+    .contact-section {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .contact-btn {
+        grid-column: span 1;
+    }
+}
+
+/*تعرف على المزيد حول مستقبل طب الأسنان و كيف يشكله لازورد*/
+.learn-more-section {
+    padding: 20px 15px;
+    direction: rtl;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.learn-more-section h2 {
+    color: #1a8332;
+    font-size: 20px;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.learn-content {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+}
+
+.learn-main {
+    flex: 2;
+    min-width: 0;
+}
+
+.learn-main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.learn-main h3 {
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.learn-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+}
+
+.small-article {
+    width: 100%;
+}
+
+.small-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.small-article h3 {
+    font-size: 11px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+@media (max-width: 400px) {
+    .learn-content {
+        gap: 8px;
+    }
+
+    .learn-main h3,
+    .small-article h3 {
+        font-size: 10px;
+    }
+}
+
+/*الأسئلة الشائعة حول لازورد*/
+@media (max-width: 768px) {
+    .faq-section {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        direction: rtl;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .faq-title {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+
+    .faq-title h2 {
+        font-size: 22px;
+        font-weight: 800;
+        color: #000;
+        margin: 0;
+    }
+
+    .faq-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-item {
+        border-top: 1px solid #eee;
+        padding: 15px 0;
+    }
+
+    .faq-item:last-child {
+        border-bottom: 1px solid #eee;
+    }
+
+    .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .faq-question span {
+        font-size: 15px;
+        font-weight: 700;
+        color: #1a8332;
+        line-height: 1.4;
+    }
+
+    .faq-answer {
+        display: none;
+        padding: 10px 0;
+        font-size: 14px;
+        color: #444;
+        line-height: 1.5;
+        text-align: right;
+    }
+}
+
+/*services*/
+@media (max-width: 900px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
